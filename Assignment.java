@@ -87,9 +87,9 @@ public class Assignment {
 			String ShirtnameCart = ShirtTypeCart.getText();
 
 			if (shirtname.equals(ShirtnameCart)) {
-				System.out.println("✅ Both product is same: " + shirtname);
+				System.out.println(" Both product is same: " + shirtname);
 			} else {
-				System.out.println("❌ Both product is not same Selected item and card item  " + shirtname + " | Cart: "
+				System.out.println(" Both product is not same Selected item and card item  " + shirtname + " | Cart: "
 						+ ShirtnameCart);
 			}
 
@@ -102,3 +102,4 @@ public class Assignment {
 		}
 	}
 }
+
